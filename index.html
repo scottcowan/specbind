@@ -1,0 +1,101 @@
+<!doctype html>
+<!-- The Time Machine GitHub pages theme was designed and developed by Jon Rohan, on Feb 7, 2012. -->
+<!-- Follow him for fun. http://twitter.com/jonrohan. Tail his code on http://github.com/jonrohan -->
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  <link rel="stylesheet" href="stylesheets/stylesheet.css" media="screen"/>
+  <link rel="stylesheet" href="stylesheets/pygment_trac.css"/>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascripts/script.js"></script>
+
+  <title>Specbind</title>
+  <meta name="description" content="Bridges the SpecFlow and popular UI automation frameworks to simplify acceptance tests.">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <header>
+      <h1 class="title">Specbind</h1>
+    </header>
+    <div id="container">
+      <p class="tagline">Bridges the SpecFlow and popular UI automation frameworks to simplify acceptance tests.</p>
+      <div id="main" role="main">
+        <div class="download-bar">
+        <div class="inner">
+          <a href="https://github.com/dpiessens/specbind/tarball/master" class="download-button tar"><span>Download</span></a>
+          <a href="https://github.com/dpiessens/specbind/zipball/master" class="download-button zip"><span>Download</span></a>
+          <a href="https://github.com/dpiessens/specbind" class="code">View Specbind on GitHub</a>
+        </div>
+        <span class="blc"></span><span class="trc"></span>
+        </div>
+        <article class="markdown-body">
+          <h2>
+<a name="what-is-specbind" class="anchor" href="#what-is-specbind"><span class="octicon octicon-link"></span></a>What is SpecBind?</h2>
+
+<p>SpecBind is an extension to SpecFlow that uses common language steps to allow a user to define interaction with an application. Unlike conventional SpecFlow where the user needs to define how each step definition interacts with the host system, SpecBind uses conventions and a thin page model to minimize coding efforts and maximize flexibility when defining the link between specifications and working sites.</p>
+
+<h2>
+<a name="initial-setup" class="anchor" href="#initial-setup"><span class="octicon octicon-link"></span></a>Initial Setup</h2>
+
+<p>Getting SpecBind installed is a simple process:</p>
+
+<ol>
+<li>Go to <a href="http://www.specflow.org">http://www.specflow.org</a> and follow the instructions for installing the Visual Studio Extension</li>
+<li>
+<p>Choose the driver type you want to use to interact with the host system:</p>
+
+<ul>
+<li>Coded UI (Recommended)</li>
+<li>Watin</li>
+</ul>
+</li>
+<li><p>Create a new test project in Visual Studio, Make it a Coded UI project if you are using that.</p></li>
+<li><p>Install the NuGet package for SpecBind</p></li>
+</ol><ul>
+<li>
+<a href="https://www.nuget.org/packages/SpecBind.CodedUI">Coded UI</a> <code>PM\&gt; Install-Package SpecBind.CodedUI</code>
+</li>
+<li>
+<a href="https://www.nuget.org/packages/SpecBind.Watin">Watin</a><code>PM\&gt; Install-Package SpecBind.Watin</code>
+</li>
+</ul><p>And you're done! </p>
+
+<h2>
+<a name="step-overview" class="anchor" href="#step-overview"><span class="octicon octicon-link"></span></a>Step Overview</h2>
+
+<p>One of the key features of SpecBind is it features a common set of steps that can be used to describe actions you take in validating a web application. These steps are outlined by their functionality in the <a href="https://github.com/dpiessens/specbind/wiki/Getting-Started-With-SpecBind">Getting Started</a> guide or in the <a href="https://github.com/dpiessens/specbind/wiki/Step-Reference">Step Reference</a> section. One thing to note is how they work with the Gherkin language. For any <strong>Given</strong> steps the step is in the past tense. This is because it assumes the action is a prerequisite and has already occurred. The <strong>When</strong> and <strong>Then</strong> steps are in the present tense since they are what the test indicates should occur. In this guide, both commands will be outlined so that the syntax is know, but only the present tense will be used for examples. </p>
+
+<h2>
+<a name="next-steps" class="anchor" href="#next-steps"><span class="octicon octicon-link"></span></a>Next Steps</h2>
+
+<p>Follow the <a href="https://github.com/dpiessens/specbind/wiki/Getting-Started-With-SpecBind">Getting Started</a> section to begin creating tests, or <a href="https://github.com/dpiessens/specbind/wiki/Documentation">Documentation</a> for in detailed information on SpecBind.</p>
+        </article>
+      </div>
+    </div>
+    <footer>
+      <div class="owner">
+      <p><a href="https://github.com/dpiessens" class="avatar"><img src="https://secure.gravatar.com/avatar/9b593b2d996867186c5547590a312c81?s=30&amp;d=https://a248.e.akamai.net/assets.github.com%2Fimages%2Fgravatars%2Fgravatar-user-420.png" width="48" height="48"/></a> <a href="https://github.com/dpiessens">dpiessens</a> maintains <a href="https://github.com/dpiessens/specbind">Specbind</a></p>
+
+
+      </div>
+      <div class="creds">
+        <small>This page generated using <a href="https://pages.github.com/">GitHub Pages</a><br/>theme by <a href="https://twitter.com/jonrohan/">Jon Rohan</a></small>
+      </div>
+    </footer>
+  </div>
+  <div class="current-section">
+    <a href="#top">Scroll to top</a>
+    <a href="https://github.com/dpiessens/specbind/tarball/master" class="tar">tar</a><a href="https://github.com/dpiessens/specbind/zipball/master" class="zip">zip</a><a href="" class="code">source code</a>
+    <p class="name"></p>
+  </div>
+
+  
+</body>
+</html>
