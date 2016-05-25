@@ -190,7 +190,7 @@ namespace SpecBind.Selenium
         /// </summary>
         private static void DownloadPhantomJsDriver()
         {
-            const string FileName = "phantomjs-2.0.0-windows.zip";
+            const string FileName = "phantomjs-2.1.1-windows.zip";
 
             DownloadAndExtractZip("https://bitbucket.org/ariya/phantomjs/downloads", FileName);
 
